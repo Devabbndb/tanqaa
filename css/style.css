@@ -1,0 +1,156 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: #F8FBFF;
+}
+.signUpForm{
+    background-color: #ffffff;
+    margin-top: 5%;
+}
+.signUpForm img{
+    display: block;
+    margin:auto;
+    padding: 2% 0;
+}
+.formBody h1{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #141618;
+    padding: 3% 0;
+}
+.formBody label{
+    position: relative;
+    top: 12px;
+    left: 16px;
+    background: #fff;
+    padding: 0 11px;
+    z-index: 100;
+}
+.formBody form{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+}
+.formBody label span{
+    color: red;
+    padding-left: 5px;
+}
+.formBody input{
+    padding: 4% 26px;
+    border: 1px solid #B7C0CC;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #818B98;
+}
+.formBody span.tanqaaDomain{
+    position: absolute;
+    right: 10px;
+    top: 36px;
+}
+.formBody input.validInput{
+    border: 1px solid green;
+}
+.formBody input.invalidInput{
+    border: 1px solid #E9001C;
+}
+.fa-check{
+    position: absolute;
+    right: 90px;
+    top: 38px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 12px;
+    font-size: 11px;
+    padding: 3px;
+}
+.formBody .validInputErrorMsg{
+    color: green;
+}
+.formBody .invalidInputErrorMsg{
+    color: #E9001C;
+    position: absolute;
+    margin-top: 0.5rem;
+}
+.formBody .input-group-addon .fa{
+    position: absolute;
+    top: 30%;
+    right: 8px;
+}
+.formBody input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+.formBody .btn-next{
+    margin-top: 5%;
+    background: #FF9213;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+}
+.formBody p{
+    color: #495468;
+}
+.formBody p a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.formBody .alert{
+    width: 80%;
+    margin: auto;
+}
+.formBody .alert ul{
+    margin-bottom: 0;
+}
+.formBody .alert li{
+    color: #495468;
+}
+.formBody .alert a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.formBody .alreadyLogin{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.formBody .alreadyLogin p{
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+    color: #495468;
+    margin-top: 5%;
+}
+.formBody .alreadyLogin a{
+    font-weight: bold;
+    color: #495468;
+}
+.formBody p{
+    text-align: center;
+}
+.profilePicture img{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    border-radius: 30px;
+    
+}
+.profilePicture{
+    position: relative;
+    top: -38px;
+}
